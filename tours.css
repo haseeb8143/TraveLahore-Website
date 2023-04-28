@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;700&display=swap');
+    *{
+        margin: 0px;
+        padding: 0px;
+    }
+    body{
+        font-family: 'Poppins';
+        background-image: url(images/toursdark.jpg);
+        background-size: cover;
+        height: 100vh;
+    }
+    header{
+        background-color: #cd6e00 ;
+        font-family: 'Poppins';
+        height: 15vh;
+        display: flex;
+    }
+    nav{
+        display: flex;
+        font-size: 20px;
+    }
+    nav ul{
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        max-width: 232.97px;
+    }
+    nav ul li{
+        list-style: none;
+        padding: 0px 0px 0px 30px;
+    }
+    nav ul li a{
+        color: white;
+        text-decoration: none;
+        border: 1px transparent;
+        border-radius: 2px 2px 0 0;
+    }
+    nav ul li a:hover{
+        color: #4f5781;
+    }
+    .navbar{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .logo img{
+        width: 150px;
+        height: auto;
+        padding: 5px 0px 0px 320px;
+    } 
+    footer{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #cd6e00;
+        height: 10vh;
+        color: white;
+        font-family: 'Poppins';
+        font-size: small;
+    }
+    .headings{
+        text-align: center;
+        color: white;
+        padding-top: 5vh;
+    }
+    table{
+        width: 50vw;
+        background-color: #4f5781;
+        padding: 5vh 5vw;
+        box-shadow: 0 2px 20px rgba(0, 0, 0, .5);
+        text-align: center;
+        color: white;
+        border-radius: 5px;
+    }
+    th, td{
+        border: 2px solid #cd6e00;
+    }
+    .table{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 5vh 10vh 10vh 10vh;
+        
+    }
+    .container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 5vh 34vw 5vh 34vw;
+        
+    }
+    .form{
+        background-color: #4f5781;
+        padding: 34px;
+        border-radius: 5px;
+        box-shadow: 0 2px 20px rgba(0, 0, 0, .5);
+        
+    }
+    label{
+        color: hsla(0, 0%, 100%, 0.60);
+    }
+    input[type=text], input[type=email], select{
+        padding: 3px 10px;
+        margin: 8px 0;
+        width: 25vw;
+        display: inline-block;
+        box-sizing: border-box;
+        background-color: transparent;
+        border: none;
+        border-bottom: 1px solid hsla(0, 0%, 100%, 0.40);
+        color: white;
+        outline:none
+    }
+    input::placeholder{
+        color: hsla(0, 0%, 100%, 0.40)
+    }
+    input:focus{
+        border-bottom: 1px solid white;
+    }
+    input[type=submit]{
+        background-color: #cd6e00;
+        color: white;
+        padding: 14px 20px;
+        margin: 8px 0;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+    .heading{
+        background-color: #cd6e00;
+        color: #4f5781;
+    }
+    .infocontain{
+        display: flex;
+        justify-content: center;
+    }
+    .infobox{
+        background-color: #4f5781;
+        padding: 40px;
+        border-radius: 5px;
+        color: white;
+        font-size: 20px;
+        font-weight: bold;
+        margin: 10vh 0 10vh 0;
+        box-shadow: 0 2px 20px rgba(0, 0, 0, .5);
+    }
+    .mailto{
+        color: #cd6e00;
+    }
+    .mailto:hover{
+        cursor: pointer;
+    }
+    .maincontent{
+        color: white;
+        padding: 5vh 2vw 0 2vw;
+    }
+    .bigheading{
+        font-size: 50px;
+    }

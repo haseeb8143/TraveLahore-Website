@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;700&display=swap');
+    *{
+        margin: 0px;
+        padding: 0px;
+    }
+    header{
+        background-color: #cd6e00 ;
+        font-family: 'Poppins';
+        height: 15vh;
+        display: flex;
+    }
+    nav{
+        display: flex;
+        font-size: 20px;
+    }
+    nav ul{
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        max-width: 232.97px;
+    }
+    nav ul li{
+        list-style: none;
+        padding: 0px 0px 0px 30px;
+    }
+    nav ul li a{
+        color: white;
+        text-decoration: none;
+    }
+    nav ul li a:hover{
+        color: #4f5781;
+    }
+    .navbar{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    /* .home{
+        max-width: 89.3px;
+    }
+    .list{
+        max-width: 60.32px;
+    } */
+    .logo img{
+        width: 150px;
+        height: auto;
+        padding: 5px 0px 0px 320px;
+    }    
+    footer{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #cd6e00;
+        height: 10vh;
+        color: white;
+        font-family: 'Poppins';
+        font-size: small;
+    }
+    .maincontent{
+        padding: 3vh 2vw 0 2vw;
+    }
+    .bigheading{
+        font-size: 50px;
+    }    
+    .image img{
+        width: 500px;
+        height: auto;
+    }
+    body{
+        font-family: 'Poppins';
+        background-color: #eee;
+    }
+    .container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 10vh 200px;
+        color: white;
+    }
+    .carditem{
+        background-color: #4f5781;
+        padding: 50px;
+        box-shadow: 0 2px 20px rgba(0, 0, 0, .8);
+        display: flex;
+        align-items: center;
+        border-radius: 5px;
+    }
+    .image{
+        transform: translateX(-80px);
+        position: relative;
+    }
+    .carditeminfo{
+        font-size: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0 25vw 10vh 25vw;
+    }
+    .reglink{
+        color: #cd6e00;
+        font-weight: bold;
+    }
